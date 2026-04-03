@@ -382,7 +382,7 @@
 
     function showView(name) {
       ['list', 'shopping', 'cooking'].forEach(v => {
-        document.getElementById(`view-${v}`).style.display = v === name ? '' : 'none';
+        document.getElementById(`view-${v}`).style.display = v === name ? 'block' : 'none';
       });
     }
 
